@@ -158,7 +158,7 @@ const CartPage = () => {
                                                                             fontSize: "20px",
                                                                             // marginTop: "20px"
                                                                         }}>
-                                                                        <strong>Total:</strong> ${total.toFixed(2)}
+                                                                        <strong>Total:</strong> ₹ {total.toFixed(2)}
                                                                     </h1>
 
                                                                     <Link to="/checkOut">
