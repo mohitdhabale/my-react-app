@@ -182,7 +182,7 @@ function CheckOut() {
                                             fontSize: "26px",
                                             marginTop: "20px"
                                         }}>
-                                            Total: ${total.toFixed(2)}
+                                            Total: ₹ {total.toFixed(2)}
                                         </h3>
                                     </div>
                                 </Col>
