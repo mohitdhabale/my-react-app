@@ -83,7 +83,7 @@ const Products = () => {
                                     <Card.Title className='product-name'>
                                         {product.name}
                                     </Card.Title>
-                                    <Card.Subtitle className='product-price'>${product.price}</Card.Subtitle>
+                                    <Card.Subtitle className='product-price'>₹ {product.price}</Card.Subtitle>
                                     <Button variant="primary" className='home-add-to-cart-btn'
 
                                         onClick={() => {
