@@ -96,7 +96,7 @@ const CartPage = () => {
                                                                             <img src={item.product_image} alt={item.name} width="80" height="80" className="me-3" />
                                                                             <div>
                                                                                 <strong>{item.name}</strong><br />
-                                                                                <span>Price: ₹{item.price.toFixed(2)}</span><br />
+                                                                                <span>Price: ₹ {item.price.toFixed(2)}</span><br />
                                                                                 {/* <Button variant="link" size="md" style={{color:"#3bb77e",textDecoration:"none", fontWeight:"600"}} onClick={() => removeFromCart(item.id)}>Remove</Button> */}
                                                                             </div>
                                                                         </div>
@@ -114,7 +114,7 @@ const CartPage = () => {
 
                                                                     <td >
                                                                         <div style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}>
-                                                                            ${(item.price * item.quantity).toFixed(2)}
+                                                                            ₹ {(item.price * item.quantity).toFixed(2)}
                                                                         </div>
                                                                     </td>
 
