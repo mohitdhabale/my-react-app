@@ -1,0 +1,554 @@
+.home-banner {
+    margin-top: 50px;
+    height: 500px;
+    background-color: #e2f9ee;
+}
+
+
+
+.banner-div1-fresh-grocery-head {
+    width: 60%;
+    height: 260px;
+    margin-top: 100px;
+    margin-left: 240px;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    /* background-color: brown; */
+}
+
+.fresh-grocery-main-head {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 2px;
+}
+
+
+#div1-btn-view-more {
+    color: white;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: #ffba43;
+    position: relative;
+    top: -8%;
+    left: 4%;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+        background-color: #3bb77e;
+    }
+}
+
+
+
+.home-logo-div {
+    width: 60%;
+    height: 380px;
+    position: relative;
+    left: 22%;
+    top: 10%;
+    /* margin-top: 50px;
+    margin-left: 20px; */
+    background-image: url(../assets/3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: blue; */
+
+}
+
+
+.home-banner-bottom-div {
+    width: 88%;
+    height: 120px;
+    padding-top: 30px;
+    position: relative;
+    top: -100%;
+    left: -1%;
+    margin-top: -100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    z-index: 5;
+}
+
+.logo-png {
+    width: 100%;
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+    z-index: -1;
+}
+
+.logo-png-head {
+    font-size: 20px;
+    font-weight: 700;
+    color: #62c597;
+}
+
+.logo-png-sub-head {
+    margin-top: -20px;
+    font-size: 14px;
+}
+
+
+
+.card-main-div {
+    width: 96%;
+    height: 250px;
+    background-image: url(../assets/vegitables.png);
+    background-size: cover;
+    border: 0;
+    margin-top: 100px;
+    box-shadow: 0 2px 60px rgba(0, 0, 0, 0.1);
+}
+
+#card1-animate {
+    background-image: url(../assets/vegitables.png);
+    background-size: cover;
+}
+
+#card2-animate {
+    background-image: url(../assets/fresh-food.png);
+    background-size: cover;
+}
+
+#card3-animate {
+    background-image: url(../assets/super-salad.png);
+    background-size: cover;
+}
+
+.card-top-head {
+    font-size: 12px;
+    font-family: cursive;
+    position: relative;
+    left: 3%;
+    top: 26%;
+    color: #4bbd89;
+}
+
+.card-main-head {
+    font-size: 20px;
+    position: relative;
+    top: 30%;
+    left: 3%;
+    font-weight: 700;
+}
+
+.card-btn {
+    background-color: #ffba43;
+    position: relative;
+    top: 46%;
+    left: 3%;
+    border: 0;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 10px 18px;
+    border-radius: 4px;
+    box-shadow: 0 2px 40px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+        background-color: #3bb77e;
+    }
+}
+
+
+
+.organic-add-ons-sub-head {
+    margin-top: 90px;
+    text-align: center;
+    font-family: cursive;
+    color: #4bbd89;
+
+}
+
+.organic-add-ons-head {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+
+.product-top-head {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.product-name {
+    font-size: 20px;
+}
+
+.product-price {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.home-add-to-cart-btn {
+    background-color: #ffba43;
+    margin-top: 12px;
+    border: 0;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 18px;
+    border-radius: 4px;
+    box-shadow: 0 2px 40px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+        background-color: #3bb77e;
+    }
+}
+
+
+.everyday-fresh-clean-img {
+    height: 500px;
+    background-image: url(../assets//wasteeee.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-attachment: fixed;
+}
+
+
+.home-weekend-offer {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-top: 80px;
+    overflow: hidden;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    box-shadow: 0 2px 60px rgba(0, 0, 0, 0.1);
+}
+
+.home-weekend-offer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/weekend-offer.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.5s ease;
+    z-index: 0;
+    border-radius: 4px;
+}
+
+.home-weekend-offer:hover::before {
+    transform: scale(1.1);
+    /* Zoom effect */
+}
+
+
+#weekend-offer-shop-now-btn {
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    z-index: 2;
+    background-color: #ffba43;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+        background-color: #3bb77e;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:576px) {
+    .home-banner {
+        height: 432px;
+    }
+
+    .banner-div1-fresh-grocery-head {
+        width: 100%;
+        height: 70px;
+        margin-left: -1px;
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .fresh-grocery-main-head {
+        font-size: 28px;
+    }
+
+    .home-fresh-grocery-para {
+        display: none;
+    }
+
+    #div1-btn-view-more {
+        display: none;
+    }
+
+    .home-logo-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo1 {
+        width: 60%;
+    }
+
+    .home-banner-bottom-div {
+        width: 91%;
+        height: 680px;
+        position: relative;
+        /* margin-left: -8px; */
+        margin-top: 30px;
+    }
+
+    .png-logo-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-png {
+        width: 20%;
+    }
+
+    .logo-png-head,
+    .logo-png-sub-head {
+        text-align: center;
+    }
+
+    .logo-png-sub-head {
+        margin-bottom: 30px;
+    }
+
+    .card-main-div {
+        width: 98%;
+        height: 260px;
+        margin-top: 50px;
+    }
+
+    .card-top-head {
+        font-size: 16px;
+    }
+
+    .card-main-head {
+        font-size: 26px;
+    }
+
+    .card-btn {
+        font-size: 14px;
+        padding: 10px 30px;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+
+
+    .organic-add-ons-sub-head {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .organic-add-ons-head {
+        font-size: 35px;
+    }
+
+    .home-weekend-offer {
+        width: 90%;
+        height: 250px;
+        margin-left: 20px;
+    }
+}
+
+
+
+@keyframes slideFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUpFade {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+}
+
+/* Animate the heading "Fresh Grocery Shopping" */
+.fresh-grocery-main-head {
+    animation: slideUpFade 0.8s ease-out forwards;
+    animation-delay: 2s;
+    opacity: 0;
+}
+
+/* Animate the paragraph */
+.home-fresh-grocery-para {
+    animation: slideUpFade 0.8s ease-out forwards;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+/* Animate the button */
+#div1-btn-view-more {
+    animation: slideUpFade 0.8s ease-out forwards;
+    animation-delay: 0.1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.home-logo-div {
+    opacity: 0;
+    animation: fadeIn 2s ease-out forwards;
+    animation-delay: 3s;
+}
+
+
+
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-80%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(80%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInBottom {
+    0% {
+        transform: translateY(80%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.card-main-div {
+    opacity: 0;
+    overflow: hidden;
+    z-index: 1;
+    /* animation-duration: 1.5s;
+    animation-fill-mode: forwards; */
+}
+
+/* Animations for each card based on their ID */
+#card1-animate {
+    animation: slideInLeft 0.6s ease-out 0.8s forwards;
+    /* First card from left */
+
+}
+
+#card2-animate {
+    animation: slideInBottom 0.6s ease-out 1s forwards;
+    /* Second card from bottom */
+
+}
+
+#card3-animate {
+    animation: slideInRight 0.6s ease-out 0.8s forwards;
+    /* Third card from right */
+
+}
+
+
+
+/* Pseudo-element to hold the background */
+.card-main-div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    /* Initial scale */
+    transition: transform 0.5s ease;
+    /* SMOOTH animation */
+    z-index: -1;
+    /* behind card content */
+}
+
+/* When hover, zoom the background smoothly */
+.card-main-div:hover::before {
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+    z-index: -1;
+    overflow: hidden;
+}

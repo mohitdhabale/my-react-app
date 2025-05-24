@@ -1,0 +1,31 @@
+
+#des{
+    background-color: rgba(226,249,238,255);
+    position: fixed;
+    margin-top: 45px;
+    margin-left: -10px;
+    /* top: 1%; */
+    z-index: 10;
+    padding-top: 20px;
+    
+}
+.nav-link{
+    color: black; 
+    position: relative;
+    left: 20%;
+    margin-left: 4%;
+}
+#btn-nav{
+    margin-left: 50%;
+    margin-bottom: 3%;
+}
+
+
+#one{
+    margin-top: 100px;
+    height: 380px;
+    /* margin-top: 335px; */
+    background-color: rgba(226,249,238,255);
+}
+
+  
