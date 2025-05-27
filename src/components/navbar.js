@@ -31,13 +31,7 @@ function Navget() {
                                 >
                                     MyAccount
                                 </Nav.Link>
-                                // <Button
-                                //     id="btn-nav"
-                                //     style={{ height: "33px", marginTop: "10px" }}
-                                //     variant="outline-success"
-                                // >
-                                //     Search
-                                // </Button>
+                               
                             </Nav>
                         </Nav>
                     </Navbar.Collapse>
