@@ -23,21 +23,21 @@ function Navget() {
                                 <Nav.Link as={Link} to="/">Home</Nav.Link>
                                 <Nav.Link as={Link} to="/productPage">Products</Nav.Link>
                                 <Nav.Link as={Link} to="/cartPage">Cart</Nav.Link>
-                                <Nav.Link href="#action4">Product</Nav.Link>
-                                <Nav.Link href="#action5">Blog</Nav.Link>
+                                
+                              
                                 <Nav.Link
                                     style={{ width: "70%", float: "left" }}
                                     href="#action6"
                                 >
                                     MyAccount
                                 </Nav.Link>
-                                <Button
-                                    id="btn-nav"
-                                    style={{ height: "33px", marginTop: "10px" }}
-                                    variant="outline-success"
-                                >
-                                    Search
-                                </Button>
+                                // <Button
+                                //     id="btn-nav"
+                                //     style={{ height: "33px", marginTop: "10px" }}
+                                //     variant="outline-success"
+                                // >
+                                //     Search
+                                // </Button>
                             </Nav>
                         </Nav>
                     </Navbar.Collapse>
